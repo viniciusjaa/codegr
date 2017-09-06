@@ -17,7 +17,7 @@
 					for ($i = 10; $; $i--) {
 						
 					// Se ímpar, multiplicar por dois
-						if ($i % 2 <> 0) {
+						if ($i % 2 =! 0) {
 							$passo3[$i] = $algs[$i] * 2;
 						} else {
 							$passo3[$i] = $algs[$i];
